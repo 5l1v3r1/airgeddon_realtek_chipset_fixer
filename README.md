@@ -20,13 +20,13 @@ There are more cards and devices using the chipsets listed here. We listed only 
 
 It is already explained on `airgeddon` Wiki on [this section] with more detail. Anyway, summarizing, it consists in just copying the `.sh` plugin file to the airgeddon's plugins directory.
 
-Plugins system feature is available from `airgeddon>=10.0`.
+This plugin was designed to be used on airgeddon v10.0 and is not needed if you are using airgeddon v10.01 or higher because since that version, the compatibility problem was already addressed by default.
 
 #### What is fixed using this plugin?
 
 Basically, this fix for the listed Realtek cards the ability to switch mode from monitor to managed and viceversa from airgeddon menus.
 
-Known problems even using the plugin:
+Known problems even using the plugin depending of your driver version and Kernel:
 
  - WPS wash scanning
  - DoS during Evil Twin attacks (while the interface is splitted into two logical interfaces)
