@@ -16,11 +16,15 @@ For now, the known list of chipsets that this plugin fix to be used flawlessly w
 
 There are more cards and devices using the chipsets listed here. We listed only some examples of cards containing these chipsets.
 
+#### Which versions was this designed for?
+
+This plugin was designed to be used on airgeddon v10.0 and is not needed if you are using airgeddon v10.01 or higher because since that version, the compatibility problem was already addressed by default.
+
 #### How to install an airgeddon plugin?
 
 It is already explained on `airgeddon` Wiki on [this section] with more detail. Anyway, summarizing, it consists in just copying the `.sh` plugin file to the airgeddon's plugins directory.
 
-This plugin was designed to be used on airgeddon v10.0 and is not needed if you are using airgeddon v10.01 or higher because since that version, the compatibility problem was already addressed by default.
+Plugins system feature is available from `airgeddon>=10.0`.
 
 #### What is fixed using this plugin?
 
